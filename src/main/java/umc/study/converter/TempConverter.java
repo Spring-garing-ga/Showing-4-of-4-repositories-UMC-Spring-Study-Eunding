@@ -11,7 +11,7 @@ public class TempConverter {
     }
 
     public static TempResponse.TempExceptionDTO toTempExceptionDTO(Integer flag){
-        return TempResponse.TempExceptionDTO.builder()git
+        return TempResponse.TempExceptionDTO.builder()
                 .flag(flag)
                 .build();
     }
