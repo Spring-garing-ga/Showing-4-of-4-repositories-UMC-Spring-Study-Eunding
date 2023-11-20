@@ -1,3 +1,4 @@
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -17,16 +18,33 @@ out/
 !**/src/test/**/out/
 
 ### Eclipse ###
+=======
+### STS ###
+
 .apt_generated
 .classpath
 .factorypath
 .project
 .settings
+
 .springBeansgit
+
+.springBeans
+
 .sts4-cache
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -38,8 +56,10 @@ bin/
 ### VS Code ###
 .vscode/
 
+
 ### Mac OS ###
 .DS_Store
 
 ### ETC ###
 application.yml
+.yml
