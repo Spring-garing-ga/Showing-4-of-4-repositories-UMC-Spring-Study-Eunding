@@ -1,21 +1,41 @@
-HELP.md
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+=======
 ### STS ###
+
 .apt_generated
 .classpath
 .factorypath
 .project
 .settings
+
+.springBeansgit
+
 .springBeans
+
 .sts4-cache
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+
 
 ### IntelliJ IDEA ###
 .idea
@@ -36,5 +56,10 @@ out/
 ### VS Code ###
 .vscode/
 
-.yml
+
+### Mac OS ###
+.DS_Store
+
+### ETC ###
 application.yml
+.yml
